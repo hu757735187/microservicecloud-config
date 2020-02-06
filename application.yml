@@ -1,19 +1,19 @@
-﻿spring：
-  profiles：
-    active：
+﻿spring: 
+  profiles: 
+    active: 
     - dev
   
 ---
-spring：
+spring: 
   profiles: dev #开发环境
-  application:
+  application: 
     name: microservicecloud-config-wyg-dev
   
 ---
  
-spring：
+spring:
   profiles: dev #测试环境
-  application:
+  application: 
     name: microservicecloud-config-wyg-test
   
  #请保存为utf-8格式
